@@ -1,0 +1,120 @@
+body{
+    background: linear-gradient(rgb(8, 123, 247),white);
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    border: 2px;
+    border-width: 5px;
+    border-style: solid;
+    color: red;
+    flex-direction: row;
+    align-items: end;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    text-align: end;
+    display: inline;
+    
+    
+
+}
+li{
+    list-style-type: none;
+    display: inline;
+    
+    
+
+}
+.card-preview{
+    display: inline-block;
+    box-shadow: 0 1px 18px 1px black;
+    margin:0px;
+    margin-top: 80px;
+    margin-left: 10px;
+    height: 60vh;
+    margin-right: 20px;
+
+}
+.thumb-preview{
+    width: 200px;
+    
+    display: inline-block;  
+
+
+}
+img{
+    width: 100%;
+    height: 160px;
+}
+.desc-preview{
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 9px;
+}
+.price-btn{
+    font-size: 26px;
+    color: rgb(8, 123, 255);
+    padding-left: 9px;
+}
+.offer-btn{
+    font-size: 20px;
+    color: red;
+    padding-left: 7px;
+}
+.name-btn{
+    font-size: 16px;
+    color: rgb(181, 8, 244);
+    margin-bottom: 34px;
+    cursor:pointer;
+    transition: 0.15s;
+   
+}
+.name-btn:hover{
+    text-decoration: underline;
+    color: rgb(0, 187, 255);
+}
+button{
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top:0px;
+    border-radius: 6px;
+    border: none;
+    
+}
+.btn-1{
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    margin-right: 3px;
+    margin-left: 8px;
+    background-color: rgb(11, 143, 244);
+    color: white;
+    cursor: pointer;
+    transition: 0.15s;
+    
+}
+.btn-2{
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    background-color: rgb(11, 143, 244);
+    color: white;
+    cursor: pointer;
+    transition: 0.15s;
+    
+}
+.btn-1:hover,
+.btn-2:hover{
+    background-color: black;
+    color: rgba(250, 0, 0, 0.879);
+}
+.btn-1:active,
+.btn-2:active{
+    background-color: rgb(166, 6, 253);
+    color: rgba(223, 247, 8, 0.655);
+}

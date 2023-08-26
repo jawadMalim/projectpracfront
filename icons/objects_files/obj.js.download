@@ -1,0 +1,2 @@
+car = {carName:"honda", carType:"v7" carColor:"white"};
+document.getElementById("demo").innerHTML= car.carName;
