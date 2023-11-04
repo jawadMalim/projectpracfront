@@ -1,2 +1,2 @@
-# projectpracfront
-this is project for practice of github
+# youTubeclone
+this is a project of YouTube clone.
